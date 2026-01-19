@@ -30,7 +30,22 @@ const { mixtape } = Astro.props;
       <div class="header-info">
         <h1>{mixtape.data.title}</h1>
         <p class="meta">{mixtape.data.year} · {mixtape.data.tracks.length} tracks</p>
+        {mixtape.data.notes && (
+          <p class="notes">{mixtape.data.notes}</p>
+        )}
       </div>
+    <div class="tracklist">
+      <h2>tracklist</h2>
+      <ol>
+        {mixtape.data.tracks.map((track) => (
+          <li>
+            <div class="track-info">
+              <span class="track-title">{track.title}</span>
+              <span class="track-artist">{track.artist}</span>
+            </div>
+          </li>
+        ))}
+      </ol>
     </div>
 
     {mixtape.data.spotifyUrl && (
@@ -48,21 +63,9 @@ const { mixtape } = Astro.props;
       </div>
     )}
 
-    <div class="tracklist">
-      <h2>tracklist</h2>
-      <ol>
-        {mixtape.data.tracks.map((track) => (
-          <li>
-            <div class="track-info">
-              <span class="track-title">{track.title}</span>
-              <span class="track-artist">{track.artist}</span>
-            </div>
-          </li>
-        ))}
-      </ol>
-    </div>
-
     <div class="back-link">
+      <a href="/mixes">← back to all mixtapes</a>
+    </div>
       <a href="/mixes">← back to all mixtapes</a>
     </div>
   </div>
@@ -70,7 +73,7 @@ const { mixtape } = Astro.props;
 
 <style>
   .mixtape-page {
-    max-width: 900px;
+    max-width: 1100px;
     margin: 0 auto;
   }
 
@@ -78,7 +81,7 @@ const { mixtape } = Astro.props;
     display: grid;
     grid-template-columns: 350px 1fr;
     gap: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     align-items: start;
   }
 
@@ -156,10 +159,23 @@ const { mixtape } = Astro.props;
     font-weight: 300;
   }
 
+  .notes {
+    margin-top: 1rem;
+    padding: 1rem 1.5rem;
+    background: rgba(116, 196, 118, 0.1);
+    border-left: 3px solid var(--green);
+    color: var(--charcoal);
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
   .spotify-embed {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
     border-radius: 4px;
+    width: 100%;
+    clear: both;
   }
 
   .tracklist {
@@ -167,7 +183,8 @@ const { mixtape } = Astro.props;
     padding: 2.5rem;
     border-radius: 4px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
   }
 
   .tracklist h2 {

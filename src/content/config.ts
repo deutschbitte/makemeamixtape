@@ -5,6 +5,7 @@ const mixtapesCollection = defineCollection({
   schema: z.object({
     title: z.string(),
     year: z.string(),
+    notes: z.string().optional(),
     coverImage: z.string().optional(),
     spotifyUrl: z.string().optional(),
     tracks: z.array(z.object({
