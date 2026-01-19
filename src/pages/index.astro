@@ -1,82 +1,74 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
-
-<BaseLayout title="home">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="a collection of carefully curated mixtapes">
+  <link rel="icon" type="image/jpeg" href="/favicon.jpg">
+  <title>home | make me a mixtape</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
   <div class="landing">
-    <a href="/mixes" class="cassette-link">
+    <a href="/mixes" class="link-wrapper">
       <img src="/banner.jpg" alt="Click to explore mixtapes" />
     </a>
   </div>
-</BaseLayout>
+</body>
+</html>
 
 <style>
-  .landing {
+  :root {
+    --green: #74c476;
+    --green-dark: #41Ab5D;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: var(--green);
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    min-height: 60vh;
+    justify-content: center;
   }
 
-  .cassette-link {
-    position: relative;
-    display: block;
+  .landing {
+    width: 100%;
     max-width: 900px;
-    width: 100%;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 12px 40px rgba(0,0,0,0.2);
-    transition: box-shadow 0.3s ease;
-    cursor: pointer;
-  }
-
-  .cassette-link:hover {
-    box-shadow: 0 16px 50px rgba(116, 196, 118, 0.3);
-  }
-
-  .cassette-link img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: linear-gradient(to top, rgba(43, 43, 43, 0.9), transparent);
     padding: 2rem;
-    opacity: 0;
+  }
+
+  .link-wrapper {
+    display: block;
+    cursor: pointer;
     transition: opacity 0.3s ease;
   }
 
-  .cassette-link:hover .overlay {
-    opacity: 1;
+  .link-wrapper:hover {
+    opacity: 0.95;
   }
 
-  .overlay p {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
-    color: var(--green);
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    margin: 0;
+  .link-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.3);
   }
 
   @media (max-width: 768px) {
     .landing {
-      min-height: 40vh;
-    }
-
-    .overlay {
-      opacity: 1;
-      background: linear-gradient(to top, rgba(43, 43, 43, 0.8), transparent);
-    }
-
-    .overlay p {
-      font-size: 1.5rem;
+      padding: 1rem;
     }
   }
 </style>
