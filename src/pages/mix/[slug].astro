@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 const { mixtape } = Astro.props;
 ---
 
-<BaseLayout title={mixtape.data.title} description={`${mixtape.data.title} - a mixtape from ${mixtape.data.year}`}>
+<BaseLayout title={mixtape.data.title} description={`${mixtape.data.title} - a mixtape from ${mixtape.data.date.getFullYear()}`}>
   <div class="mixtape-page">
     <div class="mixtape-header">
       <div class="cover">
@@ -26,10 +26,10 @@ const { mixtape } = Astro.props;
           </div>
         )}
       </div>
-      
+
       <div class="header-info">
         <h1>{mixtape.data.title}</h1>
-        <p class="meta">{mixtape.data.year} · {mixtape.data.tracks.length} tracks</p>
+        <p class="meta">{mixtape.data.date.getFullYear()} · {mixtape.data.tracks.length} tracks</p>
         {mixtape.data.notes && (
           <p class="notes">{mixtape.data.notes}</p>
         )}
