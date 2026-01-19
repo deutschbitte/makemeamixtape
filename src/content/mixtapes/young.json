@@ -1,0 +1,21 @@
+{
+  "title": "young",
+  "year": "2012",
+  "coverImage": "/covers/young.jpeg",
+  "notes": "",
+  "spotifyUrl": "https://open.spotify.com/playlist/2Q67vvdmczMZFUZprl59hP?si=a149b3c18cdf40a6",
+  "tracks": [
+    { "title": "runner", "artist": "young prisms" },
+    { "title": "your island", "artist": "young rival" },
+    { "title": "spacism", "artist": "young statues" },
+    { "title": "the lost loves", "artist": "young heretics" },
+    { "title": "if i was", "artist": "young rebel set" },
+    { "title": "echoists", "artist": "young liars" },
+    { "title": "glory of the night", "artist": "young empires" },
+    { "title": "do", "artist": "young man" },
+    { "title": "orange", "artist": "young wonder" },
+    { "title": "you with air", "artist": "young magic" },
+    { "title": "cover your tracks", "artist": "young galaxy" },
+    { "title": "the crystal text", "artist": "young moon" }
+  ]
+}
