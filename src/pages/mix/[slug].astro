@@ -79,9 +79,9 @@ const { mixtape } = Astro.props;
 
   .mixtape-header {
     display: grid;
-    grid-template-columns: 350px 1fr;
-    gap: 3rem;
-    margin-bottom: 3rem;
+    grid-template-columns: 300px 1fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
     align-items: start;
   }
 
@@ -101,7 +101,7 @@ const { mixtape } = Astro.props;
   .placeholder {
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, var(--green) 0%, var(--green-dark) 100%);
+    background: linear-gradient(135deg, var(--warm-gray) 0%, var(--charcoal) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,7 +144,7 @@ const { mixtape } = Astro.props;
 
   .header-info h1 {
     font-family: 'Inter', sans-serif;
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-size: clamp(1.5rem, 4vw, 2rem);
     color: var(--charcoal);
     margin-bottom: 0.5rem;
     line-height: 1.2;
@@ -154,35 +154,35 @@ const { mixtape } = Astro.props;
 
   .meta {
     color: var(--warm-gray);
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 300;
   }
 
   .notes {
-    margin-top: 1rem;
-    padding: 1rem 1.5rem;
-    background: rgba(116, 196, 118, 0.1);
-    border-left: 3px solid var(--green);
+    margin-top: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: rgba(0, 0, 0, 0.03);
+    border-left: 3px solid var(--warm-gray);
     color: var(--charcoal);
     font-style: italic;
-    font-size: 1rem;
-    line-height: 1.6;
+    font-size: 0.95rem;
+    line-height: 1.5;
   }
 
   .tracklist {
     background: white;
-    padding: 2.5rem;
+    padding: 1.5rem;
     border-radius: 4px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .tracklist h2 {
     font-family: 'Inter', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: var(--charcoal);
-    margin-bottom: 2rem;
-    border-bottom: 2px solid var(--green);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
     padding-bottom: 0.5rem;
     font-weight: 500;
     letter-spacing: -0.01em;
@@ -195,10 +195,10 @@ const { mixtape } = Astro.props;
 
   .tracklist li {
     counter-increment: track-counter;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     border-bottom: 1px solid rgba(0,0,0,0.06);
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
     align-items: center;
   }
 
@@ -209,9 +209,9 @@ const { mixtape } = Astro.props;
   .tracklist li::before {
     content: counter(track-counter, decimal-leading-zero);
     font-family: 'Bebas Neue', sans-serif;
-    color: var(--green-dark);
-    font-size: 1.3rem;
-    min-width: 2.5rem;
+    color: var(--warm-gray);
+    font-size: 1.1rem;
+    min-width: 2rem;
     letter-spacing: 0.05em;
   }
 
@@ -226,23 +226,25 @@ const { mixtape } = Astro.props;
   .track-title {
     color: var(--charcoal);
     font-weight: 400;
+    font-size: 0.95rem;
   }
 
   .track-artist {
     color: var(--warm-gray);
     font-weight: 300;
     text-align: right;
+    font-size: 0.95rem;
   }
 
   .spotify-embed {
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
     box-shadow: 0 8px 24px rgba(0,0,0,0.1);
     border-radius: 4px;
   }
 
   .back-link {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
   }
 
   .back-link a {
@@ -254,7 +256,7 @@ const { mixtape } = Astro.props;
   }
 
   .back-link a:hover {
-    color: var(--green);
+    color: var(--charcoal);
   }
 
   @media (max-width: 768px) {

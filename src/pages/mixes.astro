@@ -46,17 +46,17 @@ const mixtapes = allMixtapes
   .mixes-page h1 {
     font-family: 'Inter', sans-serif;
     font-size: clamp(1.75rem, 4vw, 2.5rem);
-    color: var(--green-dark);
+    color: var(--charcoal);
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-weight: 500;
     letter-spacing: -0.01em;
   }
 
   .mixtapes-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
   }
 
   .mixtape-card {
@@ -70,7 +70,7 @@ const mixtapes = allMixtapes
   }
 
   .mixtape-card:hover .cover {
-    box-shadow: 0 12px 32px rgba(116, 196, 118, 0.3);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
   }
 
   .cover {
@@ -79,7 +79,7 @@ const mixtapes = allMixtapes
     border-radius: 4px;
     overflow: hidden;
     box-shadow: 0 8px 24px rgba(0,0,0,0.15);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     transition: box-shadow 0.3s ease;
   }
 
@@ -92,7 +92,7 @@ const mixtapes = allMixtapes
   .placeholder {
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, var(--green) 0%, var(--green-dark) 100%);
+    background: linear-gradient(135deg, var(--warm-gray) 0%, var(--charcoal) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +134,7 @@ const mixtapes = allMixtapes
 
   .mixtape-info h2 {
     font-family: 'Inter', sans-serif;
-    font-size: 1.15rem;
+    font-size: 1rem;
     color: var(--charcoal);
     margin-bottom: 0.25rem;
     font-weight: 500;
@@ -143,7 +143,7 @@ const mixtapes = allMixtapes
 
   .mixtape-info p {
     color: var(--warm-gray);
-    font-size: 0.95rem;
+    font-size: 0.875rem;
     font-weight: 300;
   }
 
