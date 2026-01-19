@@ -21,7 +21,7 @@ const { title, description = "a collection of carefully curated mixtapes" } = As
 </head>
 <body>
   <header>
-    <a href="/" class="logo">
+    <a href="/mixes" class="logo">
       <h1>make me a mixtape</h1>
     </a>
   </header>
@@ -56,7 +56,7 @@ const { title, description = "a collection of carefully curated mixtapes" } = As
 
   body {
     font-family: 'Inter', sans-serif;
-    background-color: var(--soft-beige);
+    background-color: var(--green);
     color: var(--charcoal);
     line-height: 1.6;
     min-height: 100vh;
@@ -65,9 +65,9 @@ const { title, description = "a collection of carefully curated mixtapes" } = As
   }
 
   header {
-    background-color: var(--charcoal);
+    background-color: transparent;
     padding: 2.5rem 5%;
-    border-bottom: 3px solid var(--green);
+    border-bottom: none;
   }
 
   .logo {
@@ -77,7 +77,7 @@ const { title, description = "a collection of carefully curated mixtapes" } = As
   .logo h1 {
     font-family: 'Inter', sans-serif;
     font-size: clamp(1.5rem, 4vw, 2rem);
-    color: var(--cream);
+    color: var(--charcoal);
     font-weight: 500;
     letter-spacing: -0.01em;
   }
@@ -93,11 +93,11 @@ const { title, description = "a collection of carefully curated mixtapes" } = As
   footer {
     text-align: center;
     padding: 2rem 5%;
-    background-color: var(--charcoal);
-    color: var(--cream);
+    background-color: transparent;
+    color: var(--charcoal);
     font-size: 0.9rem;
     font-weight: 300;
-    border-top: 3px solid var(--green-dark);
+    border-top: none;
   }
 
   @media (max-width: 768px) {

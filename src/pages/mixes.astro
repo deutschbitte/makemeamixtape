@@ -9,14 +9,15 @@ const mixtapes = allMixtapes
     slug: mix.id,
     coverImage: mix.data.coverImage,
     trackCount: mix.data.tracks.length,
-    year: mix.data.year
+    date: mix.data.date,
+    year: mix.data.date.getFullYear()
   }))
-  .sort((a, b) => parseInt(b.year) - parseInt(a.year));
+  .sort((a, b) => b.date.getTime() - a.date.getTime());
 ---
 
 <BaseLayout title="all mixes">
   <div class="mixes-page">
-    <h1>all mixes</h1>
+    <h1></h1>
     
     <div class="mixtapes-grid">
       {mixtapes.map(mix => (
