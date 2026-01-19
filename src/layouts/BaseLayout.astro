@@ -13,10 +13,11 @@ const { title, description = "a collection of carefully curated mixtapes" } = As
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content={description}>
+  <link rel="icon" type="image/jpeg" href="/favicon.jpg">
   <title>{title} | make me a mixtape</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Work+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -30,19 +31,21 @@ const { title, description = "a collection of carefully curated mixtapes" } = As
   </main>
 
   <footer>
-    <p>made with love and nostalgia</p>
+    <p>made with love and good music</p>
   </footer>
 </body>
 </html>
 
 <style is:global>
   :root {
-    --orange: #E67E22;
-    --brown: #8B4513;
-    --cream: #FFF8E7;
-    --tan: #D4A574;
-    --dark: #2C1810;
-    --gray: #6B5D54;
+    --green: #74c476;
+    --green-dark: #41Ab5D;
+    --green-light: #9DD89F;
+    --mint: #B8E6BA;
+    --cream: #FFF5E1;
+    --charcoal: #2B2B2B;
+    --warm-gray: #5A5A5A;
+    --soft-beige: #F9F6F0;
   }
 
   * {
@@ -52,9 +55,9 @@ const { title, description = "a collection of carefully curated mixtapes" } = As
   }
 
   body {
-    font-family: 'Work Sans', sans-serif;
-    background-color: var(--cream);
-    color: var(--dark);
+    font-family: 'Inter', sans-serif;
+    background-color: var(--soft-beige);
+    color: var(--charcoal);
     line-height: 1.6;
     min-height: 100vh;
     display: flex;
@@ -62,10 +65,9 @@ const { title, description = "a collection of carefully curated mixtapes" } = As
   }
 
   header {
-    background: linear-gradient(135deg, var(--orange) 0%, var(--brown) 100%);
-    padding: 2rem 5%;
-    border-bottom: 4px solid var(--dark);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    background-color: var(--charcoal);
+    padding: 2.5rem 5%;
+    border-bottom: 3px solid var(--green);
   }
 
   .logo {
@@ -73,18 +75,17 @@ const { title, description = "a collection of carefully curated mixtapes" } = As
   }
 
   .logo h1 {
-    font-family: 'Space Mono', monospace;
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2rem, 6vw, 3.5rem);
     color: var(--cream);
-    font-weight: 700;
-    text-transform: lowercase;
-    letter-spacing: -0.02em;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
   }
 
   main {
     flex: 1;
-    padding: 3rem 5%;
+    padding: 4rem 5%;
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
@@ -93,20 +94,20 @@ const { title, description = "a collection of carefully curated mixtapes" } = As
   footer {
     text-align: center;
     padding: 2rem 5%;
-    background-color: var(--tan);
-    color: var(--dark);
+    background-color: var(--charcoal);
+    color: var(--cream);
     font-size: 0.9rem;
     font-weight: 300;
-    border-top: 2px solid var(--brown);
+    border-top: 3px solid var(--green-dark);
   }
 
   @media (max-width: 768px) {
     header {
-      padding: 1.5rem 5%;
+      padding: 2rem 5%;
     }
 
     main {
-      padding: 2rem 5%;
+      padding: 2.5rem 5%;
     }
   }
 </style>

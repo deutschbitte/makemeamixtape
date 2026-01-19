@@ -1,0 +1,273 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const mixtapes = await getCollection('mixtapes');
+  return mixtapes.map(mixtape => ({
+    params: { slug: mixtape.id },
+    props: { mixtape },
+  }));
+}
+
+const { mixtape } = Astro.props;
+---
+
+<BaseLayout title={mixtape.data.title} description={`${mixtape.data.title} - a mixtape from ${mixtape.data.year}`}>
+  <div class="mixtape-page">
+    <div class="mixtape-header">
+      <div class="cover">
+        {mixtape.data.coverImage ? (
+          <img src={mixtape.data.coverImage} alt={mixtape.data.title} />
+        ) : (
+          <div class="placeholder">
+            <div class="vinyl-ring"></div>
+            <h1 class="cover-title">{mixtape.data.title}</h1>
+          </div>
+        )}
+      </div>
+      
+      <div class="header-info">
+        <h1>{mixtape.data.title}</h1>
+        <p class="meta">{mixtape.data.year} · {mixtape.data.tracks.length} tracks</p>
+      </div>
+    </div>
+
+    {mixtape.data.spotifyUrl && (
+      <div class="spotify-embed">
+        <iframe 
+          style="border-radius:4px" 
+          src={mixtape.data.spotifyUrl.replace('playlist/', 'embed/playlist/')}
+          width="100%" 
+          height="380" 
+          frameBorder="0" 
+          allowfullscreen="" 
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+          loading="lazy">
+        </iframe>
+      </div>
+    )}
+
+    <div class="tracklist">
+      <h2>tracklist</h2>
+      <ol>
+        {mixtape.data.tracks.map((track) => (
+          <li>
+            <div class="track-info">
+              <span class="track-title">{track.title}</span>
+              <span class="track-artist">{track.artist}</span>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+
+    <div class="back-link">
+      <a href="/mixes">← back to all mixtapes</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .mixtape-page {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .mixtape-header {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 3rem;
+    margin-bottom: 4rem;
+    align-items: start;
+  }
+
+  .cover {
+    aspect-ratio: 1;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+  }
+
+  .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--green) 0%, var(--green-dark) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .vinyl-ring {
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    border: 3px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+  }
+
+  .vinyl-ring::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 30%;
+    background: var(--charcoal);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(255,255,255,0.2);
+  }
+
+  .cover-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    z-index: 1;
+    text-shadow: 2px 2px 12px rgba(0,0,0,0.4);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+  }
+
+  .header-info h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    color: var(--charcoal);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    line-height: 1;
+  }
+
+  .meta {
+    color: var(--warm-gray);
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+
+  .spotify-embed {
+    margin-bottom: 3rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    border-radius: 4px;
+  }
+
+  .tracklist {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    margin-bottom: 2.5rem;
+  }
+
+  .tracklist h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    color: var(--charcoal);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 2px solid var(--green);
+    padding-bottom: 0.5rem;
+  }
+
+  .tracklist ol {
+    list-style: none;
+    counter-reset: track-counter;
+  }
+
+  .tracklist li {
+    counter-increment: track-counter;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .tracklist li:last-child {
+    border-bottom: none;
+  }
+
+  .tracklist li::before {
+    content: counter(track-counter, decimal-leading-zero);
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--green-dark);
+    font-size: 1.3rem;
+    min-width: 2.5rem;
+    letter-spacing: 0.05em;
+  }
+
+  .track-info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: baseline;
+  }
+
+  .track-title {
+    color: var(--charcoal);
+    font-weight: 400;
+  }
+
+  .track-artist {
+    color: var(--warm-gray);
+    font-weight: 300;
+    text-align: right;
+  }
+
+  .back-link {
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .back-link a {
+    color: var(--warm-gray);
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.2s;
+    font-size: 1.05rem;
+  }
+
+  .back-link a:hover {
+    color: var(--green);
+  }
+
+  @media (max-width: 768px) {
+    .mixtape-header {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .cover {
+      max-width: 350px;
+      margin: 0 auto;
+    }
+
+    .tracklist {
+      padding: 1.5rem;
+    }
+
+    .track-info {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.25rem;
+    }
+
+    .track-artist {
+      text-align: left;
+      font-size: 0.9rem;
+    }
+  }
+</style>

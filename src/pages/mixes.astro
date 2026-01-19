@@ -1,0 +1,154 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allMixtapes = await getCollection('mixtapes');
+const mixtapes = allMixtapes.map(mix => ({
+  title: mix.data.title,
+  slug: mix.id,
+  coverImage: mix.data.coverImage,
+  trackCount: mix.data.tracks.length,
+  year: mix.data.year
+}));
+---
+
+<BaseLayout title="">
+  <div class="mixes-page">
+    <h1></h1>
+    
+    <div class="mixtapes-grid">
+      {mixtapes.map(mix => (
+        <a href={`/mix/${mix.slug}`} class="mixtape-card">
+          <div class="cover">
+            {mix.coverImage ? (
+              <img src={mix.coverImage} alt={mix.title} />
+            ) : (
+              <div class="placeholder">
+                <div class="vinyl-ring"></div>
+                <h3>{mix.title}</h3>
+              </div>
+            )}
+          </div>
+          <div class="mixtape-info">
+            <h2>{mix.title}</h2>
+            <p>{mix.trackCount} tracks · {mix.year}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .mixes-page h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    color: var(--green-dark);
+    text-align: center;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .mixtapes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 2rem;
+  }
+
+  .mixtape-card {
+    text-decoration: none;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .mixtape-card:hover {
+    transform: translateY(-8px);
+  }
+
+  .mixtape-card:hover .cover {
+    box-shadow: 0 12px 32px rgba(116, 196, 118, 0.3);
+  }
+
+  .cover {
+    aspect-ratio: 1;
+    background: var(--cream);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    margin-bottom: 1rem;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--green) 0%, var(--green-dark) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .vinyl-ring {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 50%;
+  }
+
+  .vinyl-ring::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 30%;
+    background: var(--charcoal);
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px rgba(255,255,255,0.2);
+  }
+
+  .placeholder h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    z-index: 1;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .mixtape-info h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    color: var(--charcoal);
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .mixtape-info p {
+    color: var(--warm-gray);
+    font-size: 0.95rem;
+    font-weight: 300;
+  }
+
+  @media (max-width: 768px) {
+    .mixtapes-grid {
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 1.5rem;
+    }
+  }
+</style>
