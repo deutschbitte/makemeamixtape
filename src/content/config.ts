@@ -8,6 +8,7 @@ const mixtapesCollection = defineCollection({
     notes: z.string().optional(),
     coverImage: z.string().optional(),
     spotifyUrl: z.string().optional(),
+    published: z.boolean().optional().default(true),
     tracks: z.array(z.object({
       title: z.string(),
       artist: z.string(),

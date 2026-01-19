@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 
 const allMixtapes = await getCollection('mixtapes');
 const mixtapes = allMixtapes
+  .filter(mix => mix.data.published !== false)
   .map(mix => ({
     title: mix.data.title,
     slug: mix.id,

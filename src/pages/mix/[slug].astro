@@ -4,10 +4,12 @@ import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
   const mixtapes = await getCollection('mixtapes');
-  return mixtapes.map(mixtape => ({
-    params: { slug: mixtape.id },
-    props: { mixtape },
-  }));
+  return mixtapes
+    .filter(mixtape => mixtape.data.published !== false)
+    .map(mixtape => ({
+      params: { slug: mixtape.id },
+      props: { mixtape },
+    }));
 }
 
 const { mixtape } = Astro.props;
