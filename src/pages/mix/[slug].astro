@@ -34,6 +34,8 @@ const { mixtape } = Astro.props;
           <p class="notes">{mixtape.data.notes}</p>
         )}
       </div>
+    </div>
+
     <div class="tracklist">
       <h2>tracklist</h2>
       <ol>
@@ -64,8 +66,6 @@ const { mixtape } = Astro.props;
     )}
 
     <div class="back-link">
-      <a href="/mixes">← back to all mixtapes</a>
-    </div>
       <a href="/mixes">← back to all mixtapes</a>
     </div>
   </div>
@@ -131,26 +131,25 @@ const { mixtape } = Astro.props;
   }
 
   .cover-title {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.75rem;
     color: white;
     text-align: center;
     padding: 2rem;
     z-index: 1;
     text-shadow: 2px 2px 12px rgba(0,0,0,0.4);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    line-height: 1.1;
+    line-height: 1.2;
+    font-weight: 500;
   }
 
   .header-info h1 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: clamp(2.5rem, 6vw, 4rem);
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
     color: var(--charcoal);
     margin-bottom: 0.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    line-height: 1;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -0.02em;
   }
 
   .meta {
@@ -170,32 +169,23 @@ const { mixtape } = Astro.props;
     line-height: 1.6;
   }
 
-  .spotify-embed {
-    margin-bottom: 2.5rem;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-    border-radius: 4px;
-    width: 100%;
-    clear: both;
-  }
-
   .tracklist {
     background: white;
     padding: 2.5rem;
     border-radius: 4px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     margin-bottom: 2rem;
-    width: 100%;
   }
 
   .tracklist h2 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
     color: var(--charcoal);
     margin-bottom: 2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
     border-bottom: 2px solid var(--green);
     padding-bottom: 0.5rem;
+    font-weight: 500;
+    letter-spacing: -0.01em;
   }
 
   .tracklist ol {
@@ -242,6 +232,12 @@ const { mixtape } = Astro.props;
     color: var(--warm-gray);
     font-weight: 300;
     text-align: right;
+  }
+
+  .spotify-embed {
+    margin-bottom: 2.5rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    border-radius: 4px;
   }
 
   .back-link {

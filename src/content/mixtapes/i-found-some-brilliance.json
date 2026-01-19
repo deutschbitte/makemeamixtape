@@ -1,6 +1,8 @@
 {
   "title": "i found some brilliance",
   "year": "2015",
+  "coverImage": "/covers/i-found-some-brilliance.jpg",
+  "notes": "for christy",
   "tracks": [
     { "title": "american lit", "artist": "tim kasher" },
     { "title": "our days in kansas", "artist": "tullycraft" },

@@ -5,10 +5,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <BaseLayout title="home">
   <div class="landing">
     <a href="/mixes" class="cassette-link">
-      <img src="/banner.jpg" alt="" />
-      <div class="overlay">
-        <p>click to explore</p>
-      </div>
+      <img src="/banner.jpg" alt="Click to explore mixtapes" />
     </a>
   </div>
 </BaseLayout>
@@ -29,12 +26,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 12px 40px rgba(0,0,0,0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;
     cursor: pointer;
   }
 
   .cassette-link:hover {
-    transform: scale(1.02);
     box-shadow: 0 16px 50px rgba(116, 196, 118, 0.3);
   }
 
