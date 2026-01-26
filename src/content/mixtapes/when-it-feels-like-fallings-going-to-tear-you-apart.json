@@ -5,22 +5,73 @@
   "coverImage": "/covers/when-it-feels-like-fallings-going-to-tear-you-apart.jpg",
   "spotifyUrl": "https://open.spotify.com/playlist/4pDNiRKzrivOIkdp7lba0V?si=0e2c09be0ad64932",
   "tracks": [
-    { "title": "1901", "artist": "phoenix" },
-    { "title": "party talk", "artist": "craft spells" },
-    { "title": "oxford comma", "artist": "vampire weekend" },
-    { "title": "kilojoules", "artist": "freelance whales" },
-    { "title": "anything you want", "artist": "spoon" },
-    { "title": "parade of punk rock t-shirts", "artist": "maritime" },
-    { "title": "o.n.e.", "artist": "yeasayer" },
-    { "title": "sweet sweet heartkiller", "artist": "say hi" },
-    { "title": "the start of something", "artist": "voxtrot" },
-    { "title": "talking backwards", "artist": "real estate" },
-    { "title": "so much trouble", "artist": "matt pond pa" },
-    { "title": "phantom limb", "artist": "the shins" },
-    { "title": "blacking out the friction", "artist": "death cab for cutie" },
-    { "title": "little secrets", "artist": "passion pit" },
-    { "title": "sink/let it sway", "artist": "someone still loves you boris yeltsin" },
-    { "title": "pachuca sunrise", "artist": "minus the bear" },
-    { "title": "ready to win", "artist": "tokyo police club" }
+    {
+      "title": "1901",
+      "artist": "phoenix"
+    },
+    {
+      "title": "party talk",
+      "artist": "craft spells"
+    },
+    {
+      "title": "oxford comma",
+      "artist": "vampire weekend"
+    },
+    {
+      "title": "kilojoules",
+      "artist": "freelance whales"
+    },
+    {
+      "title": "anything you want",
+      "artist": "spoon"
+    },
+    {
+      "title": "parade of punk rock t-shirts",
+      "artist": "maritime"
+    },
+    {
+      "title": "o.n.e.",
+      "artist": "yeasayer"
+    },
+    {
+      "title": "sweet sweet heartkiller",
+      "artist": "say hi"
+    },
+    {
+      "title": "the start of something",
+      "artist": "voxtrot"
+    },
+    {
+      "title": "talking backwards",
+      "artist": "real estate"
+    },
+    {
+      "title": "so much trouble",
+      "artist": "matt pond pa"
+    },
+    {
+      "title": "phantom limb",
+      "artist": "the shins"
+    },
+    {
+      "title": "blacking out the friction",
+      "artist": "death cab for cutie"
+    },
+    {
+      "title": "little secrets",
+      "artist": "passion pit"
+    },
+    {
+      "title": "sink/let it sway",
+      "artist": "someone still loves you boris yeltsin"
+    },
+    {
+      "title": "pachuca sunrise",
+      "artist": "minus the bear"
+    },
+    {
+      "title": "ready to win",
+      "artist": "tokyo police club"
+    }
   ]
 }

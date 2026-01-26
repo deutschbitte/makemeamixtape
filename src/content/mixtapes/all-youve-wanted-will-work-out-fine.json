@@ -4,21 +4,69 @@
   "notes": "",
   "coverImage": "/covers/all-youve-wanted-will-work-out-fine.jpeg",
   "tracks": [
-    { "title": "hall", "artist": "baths" },
-    { "title": "shadow", "artist": "wild nothing" },
-    { "title": "feel", "artist": "brothertiger" },
-    { "title": "departure", "artist": "germany germany" },
-    { "title": "late", "artist": "teen daze" },
-    { "title": "photojournalist", "artist": "small black" },
-    { "title": "mien", "artist": "millionyoung" },
-    { "title": "wilderness", "artist": "active child" },
-    { "title": "pure", "artist": "blackbird blackbird" },
-    { "title": "slow", "artist": "twin shadow" },
-    { "title": "ultimatum", "artist": "casa del mirto" },
-    { "title": "reds", "artist": "houses" },
-    { "title": "talamak", "artist": "toro y moi" },
-    { "title": "lilac", "artist": "blue hawaii" },
-    { "title": "open", "artist": "com truise" },
-    { "title": "soft", "artist": "washed out" }
+    {
+      "title": "hall",
+      "artist": "baths"
+    },
+    {
+      "title": "shadow",
+      "artist": "wild nothing"
+    },
+    {
+      "title": "feel",
+      "artist": "brothertiger"
+    },
+    {
+      "title": "departure",
+      "artist": "germany germany"
+    },
+    {
+      "title": "late",
+      "artist": "teen daze"
+    },
+    {
+      "title": "photojournalist",
+      "artist": "small black"
+    },
+    {
+      "title": "mien",
+      "artist": "millionyoung"
+    },
+    {
+      "title": "wilderness",
+      "artist": "active child"
+    },
+    {
+      "title": "pure",
+      "artist": "blackbird blackbird"
+    },
+    {
+      "title": "slow",
+      "artist": "twin shadow"
+    },
+    {
+      "title": "ultimatum",
+      "artist": "casa del mirto"
+    },
+    {
+      "title": "reds",
+      "artist": "houses"
+    },
+    {
+      "title": "talamak",
+      "artist": "toro y moi"
+    },
+    {
+      "title": "lilac",
+      "artist": "blue hawaii"
+    },
+    {
+      "title": "open",
+      "artist": "com truise"
+    },
+    {
+      "title": "soft",
+      "artist": "washed out"
+    }
   ]
 }

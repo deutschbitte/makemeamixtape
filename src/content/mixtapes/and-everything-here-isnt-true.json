@@ -5,30 +5,105 @@
   "notes": "for bobby",
   "spotifyUrl": "https://open.spotify.com/playlist/612DE3TQlAtzP1RCqQtNzm?si=253b24b8100d4380",
   "tracks": [
-    { "title": "97b4e", "artist": "bob nanna" },
-    { "title": "new detroit", "artist": "tigers jaw" },
-    { "title": "montero (call me by your name)", "artist": "lil nas x" },
-    { "title": "soft spot", "artist": "tiny moving parts" },
-    { "title": "indestructible", "artist": "robyn" },
-    { "title": "canada day", "artist": "emperor x" },
-    { "title": "thursday side of the street", "artist": "knapsack" },
-    { "title": "taking up space", "artist": "jetty bones" },
-    { "title": "f.c.p.r.e.m.i.x.", "artist": "the fall of troy" },
-    { "title": "violence (original mix)", "artist": "grimes, i_o" },
-    { "title": "break point", "artist": "work drugs" },
-    { "title": "ss decompressed", "artist": "pet symmetry" },
-    { "title": "sod in the seed", "artist": "why?" },
-    { "title": "you oughta know", "artist": "das racist, heems" },
-    { "title": "best looking boys", "artist": "the promise ring" },
-    { "title": "hall", "artist": "baths" },
-    { "title": "the slowest drink at the saddest bar on the snowiest day in the greatest city", "artist": "the lawrence arms" },
-    { "title": "baptism", "artist": "crystal castles" },
-    { "title": "a hundred stories", "artist": "aloha" },
-    { "title": "fine + 2 pts", "artist": "minus the bear" },
-    { "title": "snow brigade", "artist": "mew" },
-    { "title": "basking in the glow", "artist": "oso oso" },
-    { "title": "bilder mit katze", "artist": "frittenbude" },
-    { "title": "instigator", "artist": "kevin devine" },
-    { "title": "step into you", "artist": "hum" }
+    {
+      "title": "97b4e",
+      "artist": "bob nanna"
+    },
+    {
+      "title": "new detroit",
+      "artist": "tigers jaw"
+    },
+    {
+      "title": "montero (call me by your name)",
+      "artist": "lil nas x"
+    },
+    {
+      "title": "soft spot",
+      "artist": "tiny moving parts"
+    },
+    {
+      "title": "indestructible",
+      "artist": "robyn"
+    },
+    {
+      "title": "canada day",
+      "artist": "emperor x"
+    },
+    {
+      "title": "thursday side of the street",
+      "artist": "knapsack"
+    },
+    {
+      "title": "taking up space",
+      "artist": "jetty bones"
+    },
+    {
+      "title": "f.c.p.r.e.m.i.x.",
+      "artist": "the fall of troy"
+    },
+    {
+      "title": "violence (original mix)",
+      "artist": "grimes, i_o"
+    },
+    {
+      "title": "break point",
+      "artist": "work drugs"
+    },
+    {
+      "title": "ss decompressed",
+      "artist": "pet symmetry"
+    },
+    {
+      "title": "sod in the seed",
+      "artist": "why?"
+    },
+    {
+      "title": "you oughta know",
+      "artist": "das racist, heems"
+    },
+    {
+      "title": "best looking boys",
+      "artist": "the promise ring"
+    },
+    {
+      "title": "hall",
+      "artist": "baths"
+    },
+    {
+      "title": "the slowest drink at the saddest bar on the snowiest day in the greatest city",
+      "artist": "the lawrence arms"
+    },
+    {
+      "title": "baptism",
+      "artist": "crystal castles"
+    },
+    {
+      "title": "a hundred stories",
+      "artist": "aloha"
+    },
+    {
+      "title": "fine + 2 pts",
+      "artist": "minus the bear"
+    },
+    {
+      "title": "snow brigade",
+      "artist": "mew"
+    },
+    {
+      "title": "basking in the glow",
+      "artist": "oso oso"
+    },
+    {
+      "title": "bilder mit katze",
+      "artist": "frittenbude"
+    },
+    {
+      "title": "instigator",
+      "artist": "kevin devine"
+    },
+    {
+      "title": "step into you",
+      "artist": "hum"
+    }
   ]
 }

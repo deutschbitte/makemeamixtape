@@ -1,0 +1,93 @@
+{
+  "title": "nothing ever comes for free.",
+  "date": "2007-06-01",
+  "format": "cassette",
+  "notes": "",
+  "artOfTheMixUrl": "https://www.artofthemix.org/mix/112563",
+  "tracks": [
+    {
+      "title": "new kicks",
+      "artist": "le tigre"
+    },
+    {
+      "title": "we will become silhouettes (matthew dear's not scared remix)",
+      "artist": "postal service"
+    },
+    {
+      "title": "monster hospital (mstrkrft remix)",
+      "artist": "metric"
+    },
+    {
+      "title": "i'm with stupid (melnyk heavy petting mix)",
+      "artist": "pet shop boys"
+    },
+    {
+      "title": "bucky done gun (rafael lelis abandoned house tribe mix part ii)",
+      "artist": "m.i.a."
+    },
+    {
+      "title": "left right (jools mf shoot'em up mix)",
+      "artist": "chemical brothers"
+    },
+    {
+      "title": "we need a war (hell and smallboy remix)",
+      "artist": "fischerspooner"
+    },
+    {
+      "title": "price of gasoline (automato remix)",
+      "artist": "bloc party"
+    },
+    {
+      "title": "dirty harry (jon carter remix)",
+      "artist": "gorillaz"
+    },
+    {
+      "title": "north american scum (ian st. laurent's south philly scum remix)",
+      "artist": "lcd soundsystem"
+    }
+  ],
+  "sideA": [
+    {
+      "title": "new kicks",
+      "artist": "le tigre"
+    },
+    {
+      "title": "we will become silhouettes (matthew dear's not scared remix)",
+      "artist": "postal service"
+    },
+    {
+      "title": "monster hospital (mstrkrft remix)",
+      "artist": "metric"
+    },
+    {
+      "title": "i'm with stupid (melnyk heavy petting mix)",
+      "artist": "pet shop boys"
+    },
+    {
+      "title": "bucky done gun (rafael lelis abandoned house tribe mix part ii)",
+      "artist": "m.i.a."
+    }
+  ],
+  "sideB": [
+    {
+      "title": "left right (jools mf shoot'em up mix)",
+      "artist": "chemical brothers"
+    },
+    {
+      "title": "we need a war (hell and smallboy remix)",
+      "artist": "fischerspooner"
+    },
+    {
+      "title": "price of gasoline (automato remix)",
+      "artist": "bloc party"
+    },
+    {
+      "title": "dirty harry (jon carter remix)",
+      "artist": "gorillaz"
+    },
+    {
+      "title": "north american scum (ian st. laurent's south philly scum remix)",
+      "artist": "lcd soundsystem"
+    }
+  ]
+}

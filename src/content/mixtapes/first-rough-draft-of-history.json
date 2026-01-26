@@ -1,0 +1,141 @@
+{
+  "title": "first rough draft of history.",
+  "date": "2007-03-08",
+  "format": "cassette",
+  "notes": "for johannes",
+  "artOfTheMixUrl": "https://www.artofthemix.org/mix/110667",
+  "tracks": [
+    {
+      "title": "writer's block",
+      "artist": "peter bjorn and john"
+    },
+    {
+      "title": "parentheses",
+      "artist": "blow"
+    },
+    {
+      "title": "anecdote",
+      "artist": "ambulance ltd"
+    },
+    {
+      "title": "a writer's reference",
+      "artist": "halifax"
+    },
+    {
+      "title": "paper cuts",
+      "artist": "boy least likely to"
+    },
+    {
+      "title": "magazine",
+      "artist": "pedro the lion"
+    },
+    {
+      "title": "every other word",
+      "artist": "joggers"
+    },
+    {
+      "title": "everyone needs an editor",
+      "artist": "mates of state"
+    },
+    {
+      "title": "pause and clause",
+      "artist": "sharks keep moving"
+    },
+    {
+      "title": "four word letter, pt2",
+      "artist": "mewithoutyou"
+    },
+    {
+      "title": "the words",
+      "artist": "psapp"
+    },
+    {
+      "title": "notes in his pockets",
+      "artist": "good life"
+    },
+    {
+      "title": "asterick",
+      "artist": "m83"
+    },
+    {
+      "title": "uncorrected proofs",
+      "artist": "weakerthans"
+    },
+    {
+      "title": "the fake headlines",
+      "artist": "new pornographers"
+    },
+    {
+      "title": "left hand suzuki method",
+      "artist": "gorillaz"
+    }
+  ],
+  "sideA": [
+    {
+      "title": "writer's block",
+      "artist": "peter bjorn and john"
+    },
+    {
+      "title": "parentheses",
+      "artist": "blow"
+    },
+    {
+      "title": "anecdote",
+      "artist": "ambulance ltd"
+    },
+    {
+      "title": "a writer's reference",
+      "artist": "halifax"
+    },
+    {
+      "title": "paper cuts",
+      "artist": "boy least likely to"
+    },
+    {
+      "title": "magazine",
+      "artist": "pedro the lion"
+    },
+    {
+      "title": "every other word",
+      "artist": "joggers"
+    },
+    {
+      "title": "everyone needs an editor",
+      "artist": "mates of state"
+    },
+    {
+      "title": "pause and clause",
+      "artist": "sharks keep moving"
+    }
+  ],
+  "sideB": [
+    {
+      "title": "four word letter, pt2",
+      "artist": "mewithoutyou"
+    },
+    {
+      "title": "the words",
+      "artist": "psapp"
+    },
+    {
+      "title": "notes in his pockets",
+      "artist": "good life"
+    },
+    {
+      "title": "asterick",
+      "artist": "m83"
+    },
+    {
+      "title": "uncorrected proofs",
+      "artist": "weakerthans"
+    },
+    {
+      "title": "the fake headlines",
+      "artist": "new pornographers"
+    },
+    {
+      "title": "left hand suzuki method",
+      "artist": "gorillaz"
+    }
+  ]
+}

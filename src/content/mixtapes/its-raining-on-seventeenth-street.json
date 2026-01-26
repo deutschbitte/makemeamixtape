@@ -1,0 +1,45 @@
+{
+  "title": "it's raining on seventeenth street",
+  "date": "2003-06-20",
+  "format": "cassette",
+  "notes": "",
+  "artOfTheMixUrl": "https://www.artofthemix.org/mix/52690",
+  "tracks": [
+    {
+      "title": "providence",
+      "artist": "godspeed you! black emperor"
+    },
+    {
+      "title": "whenever you see fit",
+      "artist": "764 hero and modest mouse"
+    },
+    {
+      "title": "let's be still",
+      "artist": "yo la tengo"
+    },
+    {
+      "title": "west coast weather",
+      "artist": "track star"
+    }
+  ],
+  "sideA": [
+    {
+      "title": "providence",
+      "artist": "godspeed you! black emperor"
+    },
+    {
+      "title": "whenever you see fit",
+      "artist": "764 hero and modest mouse"
+    }
+  ],
+  "sideB": [
+    {
+      "title": "let's be still",
+      "artist": "yo la tengo"
+    },
+    {
+      "title": "west coast weather",
+      "artist": "track star"
+    }
+  ]
+}

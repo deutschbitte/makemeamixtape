@@ -5,17 +5,53 @@
   "coverImage": "/covers/ill-gladly-wear-the-pants-into-the-next-century.jpg",
   "spotifyUrl": "https://open.spotify.com/playlist/5j9ZCc7nvyHFfDrfVTPNzf?si=3e0fd9dc824d421c",
   "tracks": [
-    { "title": "in kind", "artist": "braids" },
-    { "title": "fantasy", "artist": "ms mr" },
-    { "title": "drink the water", "artist": "eisley" },
-    { "title": "feral love", "artist": "chelsea wolfe" },
-    { "title": "o", "artist": "iamamiwhoami" },
-    { "title": "end of time", "artist": "cocorosie" },
-    { "title": "shape shifter", "artist": "laura veirs" },
-    { "title": "fire", "artist": "austra" },
-    { "title": "no scrubs", "artist": "scout niblett" },
-    { "title": "in the green wild", "artist": "julia holter" },
-    { "title": "waste of time", "artist": "mø" },
-    { "title": "i’m from nowhere", "artist": "neko case" }
+    {
+      "title": "in kind",
+      "artist": "braids"
+    },
+    {
+      "title": "fantasy",
+      "artist": "ms mr"
+    },
+    {
+      "title": "drink the water",
+      "artist": "eisley"
+    },
+    {
+      "title": "feral love",
+      "artist": "chelsea wolfe"
+    },
+    {
+      "title": "o",
+      "artist": "iamamiwhoami"
+    },
+    {
+      "title": "end of time",
+      "artist": "cocorosie"
+    },
+    {
+      "title": "shape shifter",
+      "artist": "laura veirs"
+    },
+    {
+      "title": "fire",
+      "artist": "austra"
+    },
+    {
+      "title": "no scrubs",
+      "artist": "scout niblett"
+    },
+    {
+      "title": "in the green wild",
+      "artist": "julia holter"
+    },
+    {
+      "title": "waste of time",
+      "artist": "mø"
+    },
+    {
+      "title": "i’m from nowhere",
+      "artist": "neko case"
+    }
   ]
 }

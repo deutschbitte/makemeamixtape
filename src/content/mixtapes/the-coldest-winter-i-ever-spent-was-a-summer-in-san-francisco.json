@@ -1,0 +1,125 @@
+{
+  "title": "the coldest winter i ever spent was a summer in san francisco.",
+  "date": "2008-10-13",
+  "format": "cassette",
+  "notes": "",
+  "artOfTheMixUrl": "https://www.artofthemix.org/mix/121538",
+  "tracks": [
+    {
+      "title": "winter",
+      "artist": "the dodos"
+    },
+    {
+      "title": "the cold, the dark & the silence",
+      "artist": "sea wolf"
+    },
+    {
+      "title": "st. modesto",
+      "artist": "chris walla"
+    },
+    {
+      "title": "and it rained all night",
+      "artist": "thom yorke"
+    },
+    {
+      "title": "on the water",
+      "artist": "the walkmen"
+    },
+    {
+      "title": "ice monster (acoustic)",
+      "artist": "minus the bear"
+    },
+    {
+      "title": "lost coastlines",
+      "artist": "okkervil river"
+    },
+    {
+      "title": "wet ground",
+      "artist": "sondre lerche"
+    },
+    {
+      "title": "one summer last fall",
+      "artist": "jets to brazil"
+    },
+    {
+      "title": "let's get lost",
+      "artist": "elliott smith"
+    },
+    {
+      "title": "snow day",
+      "artist": "matt pond pa"
+    },
+    {
+      "title": "a new name for everything",
+      "artist": "the weakerthans"
+    },
+    {
+      "title": "san francisco",
+      "artist": "lucero"
+    },
+    {
+      "title": "equinox",
+      "artist": "aloha"
+    }
+  ],
+  "sideA": [
+    {
+      "title": "winter",
+      "artist": "the dodos"
+    },
+    {
+      "title": "the cold, the dark & the silence",
+      "artist": "sea wolf"
+    },
+    {
+      "title": "st. modesto",
+      "artist": "chris walla"
+    },
+    {
+      "title": "and it rained all night",
+      "artist": "thom yorke"
+    },
+    {
+      "title": "on the water",
+      "artist": "the walkmen"
+    },
+    {
+      "title": "ice monster (acoustic)",
+      "artist": "minus the bear"
+    },
+    {
+      "title": "lost coastlines",
+      "artist": "okkervil river"
+    }
+  ],
+  "sideB": [
+    {
+      "title": "wet ground",
+      "artist": "sondre lerche"
+    },
+    {
+      "title": "one summer last fall",
+      "artist": "jets to brazil"
+    },
+    {
+      "title": "let's get lost",
+      "artist": "elliott smith"
+    },
+    {
+      "title": "snow day",
+      "artist": "matt pond pa"
+    },
+    {
+      "title": "a new name for everything",
+      "artist": "the weakerthans"
+    },
+    {
+      "title": "san francisco",
+      "artist": "lucero"
+    },
+    {
+      "title": "equinox",
+      "artist": "aloha"
+    }
+  ]
+}

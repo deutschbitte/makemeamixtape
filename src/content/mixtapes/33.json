@@ -1,25 +1,73 @@
 {
   "title": "33",
   "date": "2014-08-28",
-  "published": false, 
+  "published": false,
   "notes": "for johannes m.",
   "coverImage": "/covers/33.jpg",
   "tracks": [
-    { "title": "33", "artist": "pacific strings" },
-    { "title": "dirty dreams", "artist": "work drugs" },
-    { "title": "paper the house", "artist": "fucked up" },
-    { "title": "short cut days", "artist": "cheap girls" },
-    { "title": "lost enemies", "artist": "eisley" },
-    { "title": "to the ground", "artist": "mount eerie" },
-    { "title": "screwdriver", "artist": "the white stripes" },
-    { "title": "apt. a (2)", "artist": "clouddead" },
-    { "title": "annunciation day/born on christmas day", "artist": "ted leo and the pharmacists" },
-    { "title": "souljacker part 1", "artist": "eels" },
-    { "title": "blue jeans and white t-shirts", "artist": "the gaslight anthem" },
-    { "title": "all my friends", "artist": "counting crows" },
-    { "title": "personal", "artist": "stars" },
-    { "title": "voices", "artist": "matt skiba and the sekrets" },
-    { "title": "stevie nix", "artist": "the hold steady" },
-    { "title": "psalm", "artist": "jets to brazil" }
+    {
+      "title": "33",
+      "artist": "pacific strings"
+    },
+    {
+      "title": "dirty dreams",
+      "artist": "work drugs"
+    },
+    {
+      "title": "paper the house",
+      "artist": "fucked up"
+    },
+    {
+      "title": "short cut days",
+      "artist": "cheap girls"
+    },
+    {
+      "title": "lost enemies",
+      "artist": "eisley"
+    },
+    {
+      "title": "to the ground",
+      "artist": "mount eerie"
+    },
+    {
+      "title": "screwdriver",
+      "artist": "the white stripes"
+    },
+    {
+      "title": "apt. a (2)",
+      "artist": "clouddead"
+    },
+    {
+      "title": "annunciation day/born on christmas day",
+      "artist": "ted leo and the pharmacists"
+    },
+    {
+      "title": "souljacker part 1",
+      "artist": "eels"
+    },
+    {
+      "title": "blue jeans and white t-shirts",
+      "artist": "the gaslight anthem"
+    },
+    {
+      "title": "all my friends",
+      "artist": "counting crows"
+    },
+    {
+      "title": "personal",
+      "artist": "stars"
+    },
+    {
+      "title": "voices",
+      "artist": "matt skiba and the sekrets"
+    },
+    {
+      "title": "stevie nix",
+      "artist": "the hold steady"
+    },
+    {
+      "title": "psalm",
+      "artist": "jets to brazil"
+    }
   ]
 }

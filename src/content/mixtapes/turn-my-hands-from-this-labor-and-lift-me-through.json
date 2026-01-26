@@ -1,0 +1,125 @@
+{
+  "title": "turn my hands from this labor and lift me through.",
+  "date": "2009-01-04",
+  "format": "cassette",
+  "notes": "",
+  "artOfTheMixUrl": "https://www.artofthemix.org/mix/122343",
+  "tracks": [
+    {
+      "title": "frank sinatra",
+      "artist": "cake"
+    },
+    {
+      "title": "dress up in you",
+      "artist": "belle & sebastian"
+    },
+    {
+      "title": "retreat!",
+      "artist": "cursive"
+    },
+    {
+      "title": "last love song for now",
+      "artist": "okkervil river"
+    },
+    {
+      "title": "susp e n d ed from class",
+      "artist": "camera obscura"
+    },
+    {
+      "title": "the underdog",
+      "artist": "spoon"
+    },
+    {
+      "title": "cheerupcheerily",
+      "artist": "fog"
+    },
+    {
+      "title": "if we can land a man on the moon surely i can win your heart",
+      "artist": "beulah"
+    },
+    {
+      "title": "random rules",
+      "artist": "silver jews"
+    },
+    {
+      "title": "holland, 1945",
+      "artist": "neutral milk hotel"
+    },
+    {
+      "title": "boring fountain",
+      "artist": "someone still loves you boris yeltsin"
+    },
+    {
+      "title": "love affair",
+      "artist": "copeland"
+    },
+    {
+      "title": "dashboard",
+      "artist": "modest mouse"
+    },
+    {
+      "title": "ghost shark",
+      "artist": "r o c k e t from the crypt"
+    }
+  ],
+  "sideA": [
+    {
+      "title": "frank sinatra",
+      "artist": "cake"
+    },
+    {
+      "title": "dress up in you",
+      "artist": "belle & sebastian"
+    },
+    {
+      "title": "retreat!",
+      "artist": "cursive"
+    },
+    {
+      "title": "last love song for now",
+      "artist": "okkervil river"
+    },
+    {
+      "title": "susp e n d ed from class",
+      "artist": "camera obscura"
+    },
+    {
+      "title": "the underdog",
+      "artist": "spoon"
+    },
+    {
+      "title": "cheerupcheerily",
+      "artist": "fog"
+    }
+  ],
+  "sideB": [
+    {
+      "title": "if we can land a man on the moon surely i can win your heart",
+      "artist": "beulah"
+    },
+    {
+      "title": "random rules",
+      "artist": "silver jews"
+    },
+    {
+      "title": "holland, 1945",
+      "artist": "neutral milk hotel"
+    },
+    {
+      "title": "boring fountain",
+      "artist": "someone still loves you boris yeltsin"
+    },
+    {
+      "title": "love affair",
+      "artist": "copeland"
+    },
+    {
+      "title": "dashboard",
+      "artist": "modest mouse"
+    },
+    {
+      "title": "ghost shark",
+      "artist": "r o c k e t from the crypt"
+    }
+  ]
+}

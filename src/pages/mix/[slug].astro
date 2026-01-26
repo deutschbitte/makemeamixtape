@@ -35,22 +35,58 @@ const { mixtape } = Astro.props;
         {mixtape.data.notes && (
           <p class="notes">{mixtape.data.notes}</p>
         )}
+        {mixtape.data.artOfTheMixUrl && (
+          <a href={mixtape.data.artOfTheMixUrl} class="aotm-link" target="_blank" rel="noopener noreferrer">
+            view on art of the mix →
+          </a>
+        )}
       </div>
     </div>
 
-    <div class="tracklist">
-      <h2>tracklist</h2>
-      <ol>
-        {mixtape.data.tracks.map((track) => (
-          <li>
-            <div class="track-info">
-              <span class="track-title">{track.title}</span>
-              <span class="track-artist">{track.artist}</span>
-            </div>
-          </li>
-        ))}
-      </ol>
-    </div>
+    {mixtape.data.format === 'cassette' && mixtape.data.sideA && mixtape.data.sideB ? (
+      <div class="tracklist cassette">
+        <div class="side">
+          <h2>side a</h2>
+          <ol>
+            {mixtape.data.sideA.map((track) => (
+              <li>
+                <div class="track-info">
+                  <span class="track-title">{track.title}</span>
+                  <span class="track-artist">{track.artist}</span>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+        <div class="side">
+          <h2>side b</h2>
+          <ol>
+            {mixtape.data.sideB.map((track) => (
+              <li>
+                <div class="track-info">
+                  <span class="track-title">{track.title}</span>
+                  <span class="track-artist">{track.artist}</span>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </div>
+      </div>
+    ) : (
+      <div class="tracklist">
+        <h2>tracklist</h2>
+        <ol>
+          {mixtape.data.tracks.map((track) => (
+            <li>
+              <div class="track-info">
+                <span class="track-title">{track.title}</span>
+                <span class="track-artist">{track.artist}</span>
+              </div>
+            </li>
+          ))}
+        </ol>
+      </div>
+    )}
 
     {mixtape.data.spotifyUrl && (
       <div class="spotify-embed">
@@ -171,12 +207,35 @@ const { mixtape } = Astro.props;
     line-height: 1.5;
   }
 
+  .aotm-link {
+    display: inline-block;
+    margin-top: 0.75rem;
+    color: var(--warm-gray);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+  }
+
+  .aotm-link:hover {
+    color: var(--charcoal);
+  }
+
   .tracklist {
     background: white;
     padding: 1.5rem;
     border-radius: 4px;
     box-shadow: 0 4px 16px rgba(0,0,0,0.08);
     margin-bottom: 1.5rem;
+  }
+
+  .tracklist.cassette {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .tracklist.cassette .side {
+    background: white;
   }
 
   .tracklist h2 {
@@ -285,6 +344,11 @@ const { mixtape } = Astro.props;
     .track-artist {
       text-align: left;
       font-size: 0.9rem;
+    }
+
+    .tracklist.cassette {
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
     }
   }
 </style>

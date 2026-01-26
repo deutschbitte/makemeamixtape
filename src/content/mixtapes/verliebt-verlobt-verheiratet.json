@@ -1,48 +1,165 @@
 {
   "title": "verliebt, verlobt, verheiratet",
-  "date": "2013-08-17",   
-  "published": false, 
+  "date": "2013-08-17",
+  "published": false,
   "notes": "for m",
   "coverImage": "/covers/verliebt-verlobt-verheiratet.jpg",
   "tracks": [
-    { "title": "you remind me of home", "artist": "benjamin gibbard" },
-    { "title": "call me maybe", "artist": "carly rae jepsen" },
-    { "title": "young folks", "artist": "peter björn and john" },
-    { "title": "let’s stay together", "artist": "al green" },
-    { "title": "is it really so strange?", "artist": "the smiths" },
-    { "title": "i would do anything for you", "artist": "foster the people" },
-    { "title": "näher zu dir", "artist": "tocotronic" },
-    { "title": "such great heights", "artist": "the postal service" },
-    { "title": "electric feel", "artist": "mgmt" },
-    { "title": "the reason", "artist": "the weakerthans" },
-    { "title": "till i waltz again with you", "artist": "teresa brewer" },
-    { "title": "girls just wanna have fun", "artist": "cyndi lauper" },
-    { "title": "parenthesis", "artist": "the blow" },
-    { "title": "counting backwards", "artist": "the velvet teen" },
-    { "title": "for me this is heaven", "artist": "jimmy eat world" },
-    { "title": "if it’s not with you", "artist": "phoenix" },
-    { "title": "california girls", "artist": "the beach boys" },
-    { "title": "indestructible", "artist": "robyn" },
-    { "title": "you’re my best friend", "artist": "queen" },
-    { "title": "i will follow you into the dark", "artist": "death cab for cutie" },
-    { "title": "islands", "artist": "the xx" },
-    { "title": "ten minutes", "artist": "the get up kids" },
-    { "title": "just like heaven", "artist": "the cure" },
-    { "title": "take care", "artist": "beach house" },
-    { "title": "on melancholy hill", "artist": "gorillaz" },
-    { "title": "big trucks", "artist": "pedro the lion" },
-    { "title": "hey ya!", "artist": "outkast" },
-    { "title": "i will", "artist": "the beatles" },
-    { "title": "falling", "artist": "weezer" },
-    { "title": "no one’s gonna love you", "artist": "band of horses" },
-    { "title": "you got it", "artist": "roy orbison" },
-    { "title": "bizarre love triangle", "artist": "new order" },
-    { "title": "can’t help falling in love with you", "artist": "elvis presley" },
-    { "title": "modern nature", "artist": "sondre lerche" },
-    { "title": "fire burning", "artist": "sean kingston" },
-    { "title": "ain’t no sunshine", "artist": "bill withers" },
-    { "title": "ich sang die ganze zeit von dir", "artist": "tomte" },
-    { "title": "this must be the place (naive melody)", "artist": "the talking heads" },
-    { "title": "fade into you", "artist": "mazzy star" }
+    {
+      "title": "you remind me of home",
+      "artist": "benjamin gibbard"
+    },
+    {
+      "title": "call me maybe",
+      "artist": "carly rae jepsen"
+    },
+    {
+      "title": "young folks",
+      "artist": "peter björn and john"
+    },
+    {
+      "title": "let’s stay together",
+      "artist": "al green"
+    },
+    {
+      "title": "is it really so strange?",
+      "artist": "the smiths"
+    },
+    {
+      "title": "i would do anything for you",
+      "artist": "foster the people"
+    },
+    {
+      "title": "näher zu dir",
+      "artist": "tocotronic"
+    },
+    {
+      "title": "such great heights",
+      "artist": "the postal service"
+    },
+    {
+      "title": "electric feel",
+      "artist": "mgmt"
+    },
+    {
+      "title": "the reason",
+      "artist": "the weakerthans"
+    },
+    {
+      "title": "till i waltz again with you",
+      "artist": "teresa brewer"
+    },
+    {
+      "title": "girls just wanna have fun",
+      "artist": "cyndi lauper"
+    },
+    {
+      "title": "parenthesis",
+      "artist": "the blow"
+    },
+    {
+      "title": "counting backwards",
+      "artist": "the velvet teen"
+    },
+    {
+      "title": "for me this is heaven",
+      "artist": "jimmy eat world"
+    },
+    {
+      "title": "if it’s not with you",
+      "artist": "phoenix"
+    },
+    {
+      "title": "california girls",
+      "artist": "the beach boys"
+    },
+    {
+      "title": "indestructible",
+      "artist": "robyn"
+    },
+    {
+      "title": "you’re my best friend",
+      "artist": "queen"
+    },
+    {
+      "title": "i will follow you into the dark",
+      "artist": "death cab for cutie"
+    },
+    {
+      "title": "islands",
+      "artist": "the xx"
+    },
+    {
+      "title": "ten minutes",
+      "artist": "the get up kids"
+    },
+    {
+      "title": "just like heaven",
+      "artist": "the cure"
+    },
+    {
+      "title": "take care",
+      "artist": "beach house"
+    },
+    {
+      "title": "on melancholy hill",
+      "artist": "gorillaz"
+    },
+    {
+      "title": "big trucks",
+      "artist": "pedro the lion"
+    },
+    {
+      "title": "hey ya!",
+      "artist": "outkast"
+    },
+    {
+      "title": "i will",
+      "artist": "the beatles"
+    },
+    {
+      "title": "falling",
+      "artist": "weezer"
+    },
+    {
+      "title": "no one’s gonna love you",
+      "artist": "band of horses"
+    },
+    {
+      "title": "you got it",
+      "artist": "roy orbison"
+    },
+    {
+      "title": "bizarre love triangle",
+      "artist": "new order"
+    },
+    {
+      "title": "can’t help falling in love with you",
+      "artist": "elvis presley"
+    },
+    {
+      "title": "modern nature",
+      "artist": "sondre lerche"
+    },
+    {
+      "title": "fire burning",
+      "artist": "sean kingston"
+    },
+    {
+      "title": "ain’t no sunshine",
+      "artist": "bill withers"
+    },
+    {
+      "title": "ich sang die ganze zeit von dir",
+      "artist": "tomte"
+    },
+    {
+      "title": "this must be the place (naive melody)",
+      "artist": "the talking heads"
+    },
+    {
+      "title": "fade into you",
+      "artist": "mazzy star"
+    }
   ]
 }

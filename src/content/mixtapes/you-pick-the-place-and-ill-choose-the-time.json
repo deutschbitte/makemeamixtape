@@ -1,0 +1,205 @@
+{
+  "title": "you pick the place and i'll choose the time.",
+  "date": "2009-12-15",
+  "format": "cassette",
+  "notes": "for chris s",
+  "artOfTheMixUrl": "https://www.artofthemix.org/mix/125036",
+  "tracks": [
+    {
+      "title": "calling all skeletons",
+      "artist": "alkaline trio"
+    },
+    {
+      "title": "the vowels pt. 2",
+      "artist": "why?"
+    },
+    {
+      "title": "bohemian like you",
+      "artist": "the dandy warhols"
+    },
+    {
+      "title": "electric feel",
+      "artist": "mgmt"
+    },
+    {
+      "title": "fearless (live)",
+      "artist": "ambulance ltd"
+    },
+    {
+      "title": "picture book",
+      "artist": "the kinks"
+    },
+    {
+      "title": "the boy with the wooden lips",
+      "artist": "agent ribbons"
+    },
+    {
+      "title": "you were right",
+      "artist": "built to spill"
+    },
+    {
+      "title": "germany to germany",
+      "artist": "ratatat"
+    },
+    {
+      "title": "break her down like a shotgun",
+      "artist": "felt (murs & slug)"
+    },
+    {
+      "title": "vcr",
+      "artist": "the xx"
+    },
+    {
+      "title": "18. stock",
+      "artist": "hansen band"
+    },
+    {
+      "title": "almost ready",
+      "artist": "dinosaur jr."
+    },
+    {
+      "title": "this is why i'm hot",
+      "artist": "mims"
+    },
+    {
+      "title": "got nuffin",
+      "artist": "spoon"
+    },
+    {
+      "title": "gimme danger",
+      "artist": "iggy & the stooges"
+    },
+    {
+      "title": "1901",
+      "artist": "phoenix"
+    },
+    {
+      "title": "confetti (acoustic)",
+      "artist": "the lemonheads"
+    },
+    {
+      "title": "rock and roll",
+      "artist": "the velvet underground"
+    },
+    {
+      "title": "abstract art (josh martinez)",
+      "artist": "anticon"
+    },
+    {
+      "title": "the slowest drink at the saddest bar on the snowiest day",
+      "artist": "the lawrence arms"
+    },
+    {
+      "title": "speeding motorcycle",
+      "artist": "yo la tengo"
+    },
+    {
+      "title": "unlisted track",
+      "artist": "jawbreaker"
+    },
+    {
+      "title": "wish you were here",
+      "artist": "sparklehorse and radiohead"
+    }
+  ],
+  "sideA": [
+    {
+      "title": "calling all skeletons",
+      "artist": "alkaline trio"
+    },
+    {
+      "title": "the vowels pt. 2",
+      "artist": "why?"
+    },
+    {
+      "title": "bohemian like you",
+      "artist": "the dandy warhols"
+    },
+    {
+      "title": "electric feel",
+      "artist": "mgmt"
+    },
+    {
+      "title": "fearless (live)",
+      "artist": "ambulance ltd"
+    },
+    {
+      "title": "picture book",
+      "artist": "the kinks"
+    },
+    {
+      "title": "the boy with the wooden lips",
+      "artist": "agent ribbons"
+    },
+    {
+      "title": "you were right",
+      "artist": "built to spill"
+    },
+    {
+      "title": "germany to germany",
+      "artist": "ratatat"
+    },
+    {
+      "title": "break her down like a shotgun",
+      "artist": "felt (murs & slug)"
+    },
+    {
+      "title": "vcr",
+      "artist": "the xx"
+    },
+    {
+      "title": "18. stock",
+      "artist": "hansen band"
+    }
+  ],
+  "sideB": [
+    {
+      "title": "almost ready",
+      "artist": "dinosaur jr."
+    },
+    {
+      "title": "this is why i'm hot",
+      "artist": "mims"
+    },
+    {
+      "title": "got nuffin",
+      "artist": "spoon"
+    },
+    {
+      "title": "gimme danger",
+      "artist": "iggy & the stooges"
+    },
+    {
+      "title": "1901",
+      "artist": "phoenix"
+    },
+    {
+      "title": "confetti (acoustic)",
+      "artist": "the lemonheads"
+    },
+    {
+      "title": "rock and roll",
+      "artist": "the velvet underground"
+    },
+    {
+      "title": "abstract art (josh martinez)",
+      "artist": "anticon"
+    },
+    {
+      "title": "the slowest drink at the saddest bar on the snowiest day",
+      "artist": "the lawrence arms"
+    },
+    {
+      "title": "speeding motorcycle",
+      "artist": "yo la tengo"
+    },
+    {
+      "title": "unlisted track",
+      "artist": "jawbreaker"
+    },
+    {
+      "title": "wish you were here",
+      "artist": "sparklehorse and radiohead"
+    }
+  ]
+}

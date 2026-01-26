@@ -5,35 +5,125 @@
   "coverImage": "/covers/it-is-a-truth-of-my-crossed-view-and-its-for-you.webp",
   "spotifyUrl": "https://open.spotify.com/playlist/1ZKwAzj2PIDyYw51JlmNHE?si=5c0fb1eedd444cab",
   "tracks": [
-    { "title": "cut", "artist": "children" },
-    { "title": "teachers", "artist": "me succeeds" },
-    { "title": "thirteen thirtyfive (deniz kurtel ruya remix)", "artist": "dillon" },
-    { "title": "no rest for the wicked", "artist": "lykki li" },
-    { "title": "don’t wanna dance", "artist": "mø" },
-    { "title": "waiting game", "artist": "banks" },
-    { "title": "fineshrine", "artist": "purity ring" },
-    { "title": "waves", "artist": "blondefire" },
-    { "title": "anything could happen", "artist": "ellie golding" },
-    { "title": "habitat", "artist": "austra" },
-    { "title": "erase rewind", "artist": "the cardigans" },
-    { "title": "team", "artist": "lorde" },
-    { "title": "dorian", "artist": "agnes obel" },
-    { "title": "fruend", "artist": "braids" },
-    { "title": "not on drugs", "artist": "tove lo" },
-    { "title": "happy virus", "artist": "hundreds" },
-    { "title": "little numbers", "artist": "boy" },
-    { "title": "hey now", "artist": "london grammar" },
-    { "title": "let go for tonight", "artist": "foxes" },
-    { "title": "this is love (feels alright)", "artist": "camera obscura" },
-    { "title": "youth", "artist": "daughter" },
-    { "title": "hurricane", "artist": "ms mr" },
-    { "title": "more than", "artist": "au revoir simone" },
-    { "title": "gun", "artist": "chvrches" },
-    { "title": "white doves", "artist": "kyla la grange" },
-    { "title": "genesis", "artist": "grimes" },
-    { "title": "other people", "artist": "beach house" },
-    { "title": "lay your cards out (featuring mike noyce)", "artist": "poliça" },
-    { "title": "keep it healthy", "artist": "warpaint" },
-    { "title": "captured heart", "artist": "be forest" }
+    {
+      "title": "cut",
+      "artist": "children"
+    },
+    {
+      "title": "teachers",
+      "artist": "me succeeds"
+    },
+    {
+      "title": "thirteen thirtyfive (deniz kurtel ruya remix)",
+      "artist": "dillon"
+    },
+    {
+      "title": "no rest for the wicked",
+      "artist": "lykki li"
+    },
+    {
+      "title": "don’t wanna dance",
+      "artist": "mø"
+    },
+    {
+      "title": "waiting game",
+      "artist": "banks"
+    },
+    {
+      "title": "fineshrine",
+      "artist": "purity ring"
+    },
+    {
+      "title": "waves",
+      "artist": "blondefire"
+    },
+    {
+      "title": "anything could happen",
+      "artist": "ellie golding"
+    },
+    {
+      "title": "habitat",
+      "artist": "austra"
+    },
+    {
+      "title": "erase rewind",
+      "artist": "the cardigans"
+    },
+    {
+      "title": "team",
+      "artist": "lorde"
+    },
+    {
+      "title": "dorian",
+      "artist": "agnes obel"
+    },
+    {
+      "title": "fruend",
+      "artist": "braids"
+    },
+    {
+      "title": "not on drugs",
+      "artist": "tove lo"
+    },
+    {
+      "title": "happy virus",
+      "artist": "hundreds"
+    },
+    {
+      "title": "little numbers",
+      "artist": "boy"
+    },
+    {
+      "title": "hey now",
+      "artist": "london grammar"
+    },
+    {
+      "title": "let go for tonight",
+      "artist": "foxes"
+    },
+    {
+      "title": "this is love (feels alright)",
+      "artist": "camera obscura"
+    },
+    {
+      "title": "youth",
+      "artist": "daughter"
+    },
+    {
+      "title": "hurricane",
+      "artist": "ms mr"
+    },
+    {
+      "title": "more than",
+      "artist": "au revoir simone"
+    },
+    {
+      "title": "gun",
+      "artist": "chvrches"
+    },
+    {
+      "title": "white doves",
+      "artist": "kyla la grange"
+    },
+    {
+      "title": "genesis",
+      "artist": "grimes"
+    },
+    {
+      "title": "other people",
+      "artist": "beach house"
+    },
+    {
+      "title": "lay your cards out (featuring mike noyce)",
+      "artist": "poliça"
+    },
+    {
+      "title": "keep it healthy",
+      "artist": "warpaint"
+    },
+    {
+      "title": "captured heart",
+      "artist": "be forest"
+    }
   ]
 }

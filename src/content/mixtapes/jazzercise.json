@@ -1,0 +1,109 @@
+{
+  "title": "jazzercise.",
+  "date": "2006-05-08",
+  "format": "cassette",
+  "notes": "for aloha",
+  "artOfTheMixUrl": "https://www.artofthemix.org/mix/103607",
+  "tracks": [
+    {
+      "title": "i hate saxophones",
+      "artist": "sean na na"
+    },
+    {
+      "title": "singin' the blues",
+      "artist": "sidney bechet and bix beiderbecke"
+    },
+    {
+      "title": "things are getting better",
+      "artist": "cannonball adderley"
+    },
+    {
+      "title": "it's only a paper moon",
+      "artist": "johnny hodges"
+    },
+    {
+      "title": "take five",
+      "artist": "dave brubeck and paul desmond"
+    },
+    {
+      "title": "swedish schnapps",
+      "artist": "charlie parker"
+    },
+    {
+      "title": "you'd be so nice to come home to",
+      "artist": "coleman hawkins and ben webster"
+    },
+    {
+      "title": "ain't misbehavin'",
+      "artist": "kenny burrell and illinois jacquet"
+    },
+    {
+      "title": "giant steps",
+      "artist": "john coltrane"
+    },
+    {
+      "title": "le coiffeur",
+      "artist": "dexter gordon"
+    },
+    {
+      "title": "mambo bounce",
+      "artist": "sonny rollins"
+    },
+    {
+      "title": "taking a chance on love",
+      "artist": "gerry mulligan"
+    }
+  ],
+  "sideA": [
+    {
+      "title": "i hate saxophones",
+      "artist": "sean na na"
+    },
+    {
+      "title": "singin' the blues",
+      "artist": "sidney bechet and bix beiderbecke"
+    },
+    {
+      "title": "things are getting better",
+      "artist": "cannonball adderley"
+    },
+    {
+      "title": "it's only a paper moon",
+      "artist": "johnny hodges"
+    },
+    {
+      "title": "take five",
+      "artist": "dave brubeck and paul desmond"
+    },
+    {
+      "title": "swedish schnapps",
+      "artist": "charlie parker"
+    }
+  ],
+  "sideB": [
+    {
+      "title": "you'd be so nice to come home to",
+      "artist": "coleman hawkins and ben webster"
+    },
+    {
+      "title": "ain't misbehavin'",
+      "artist": "kenny burrell and illinois jacquet"
+    },
+    {
+      "title": "giant steps",
+      "artist": "john coltrane"
+    },
+    {
+      "title": "le coiffeur",
+      "artist": "dexter gordon"
+    },
+    {
+      "title": "mambo bounce",
+      "artist": "sonny rollins"
+    },
+    {
+      "title": "taking a chance on love",
+      "artist": "gerry mulligan"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "title": "we know where we're going.",
+  "date": "2007-05-15",
+  "format": "cassette",
+  "notes": "for rachel k",
+  "artOfTheMixUrl": "https://www.artofthemix.org/mix/112199",
+  "tracks": [
+    {
+      "title": "road to nowhere",
+      "artist": "talking heads"
+    },
+    {
+      "title": "panic",
+      "artist": "smiths"
+    },
+    {
+      "title": "search and destroy",
+      "artist": "iggy and the stooges"
+    },
+    {
+      "title": "jeepster",
+      "artist": "t. rex"
+    },
+    {
+      "title": "show of strength",
+      "artist": "echo and the bunnymen"
+    },
+    {
+      "title": "disorder",
+      "artist": "joy division"
+    },
+    {
+      "title": "personality crisis",
+      "artist": "new york dolls"
+    },
+    {
+      "title": "the way we get by",
+      "artist": "spoon"
+    },
+    {
+      "title": "after hours",
+      "artist": "velvet underground"
+    },
+    {
+      "title": "more than this",
+      "artist": "roxy music"
+    },
+    {
+      "title": "incinerate",
+      "artist": "sonic youth"
+    },
+    {
+      "title": "range life",
+      "artist": "pavement"
+    },
+    {
+      "title": "you really got me",
+      "artist": "kinks"
+    },
+    {
+      "title": "freak scene",
+      "artist": "dinosaur jr."
+    },
+    {
+      "title": "kiss off",
+      "artist": "violent femmes"
+    },
+    {
+      "title": "sometimes",
+      "artist": "my bloody valentine"
+    }
+  ],
+  "sideA": [
+    {
+      "title": "road to nowhere",
+      "artist": "talking heads"
+    },
+    {
+      "title": "panic",
+      "artist": "smiths"
+    },
+    {
+      "title": "search and destroy",
+      "artist": "iggy and the stooges"
+    },
+    {
+      "title": "jeepster",
+      "artist": "t. rex"
+    },
+    {
+      "title": "show of strength",
+      "artist": "echo and the bunnymen"
+    },
+    {
+      "title": "disorder",
+      "artist": "joy division"
+    },
+    {
+      "title": "personality crisis",
+      "artist": "new york dolls"
+    },
+    {
+      "title": "the way we get by",
+      "artist": "spoon"
+    }
+  ],
+  "sideB": [
+    {
+      "title": "after hours",
+      "artist": "velvet underground"
+    },
+    {
+      "title": "more than this",
+      "artist": "roxy music"
+    },
+    {
+      "title": "incinerate",
+      "artist": "sonic youth"
+    },
+    {
+      "title": "range life",
+      "artist": "pavement"
+    },
+    {
+      "title": "you really got me",
+      "artist": "kinks"
+    },
+    {
+      "title": "freak scene",
+      "artist": "dinosaur jr."
+    },
+    {
+      "title": "kiss off",
+      "artist": "violent femmes"
+    },
+    {
+      "title": "sometimes",
+      "artist": "my bloody valentine"
+    }
+  ]
+}

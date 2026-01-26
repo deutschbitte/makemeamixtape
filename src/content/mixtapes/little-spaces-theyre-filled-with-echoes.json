@@ -5,17 +5,53 @@
   "coverImage": "/covers/little-spaces-theyre-filled-with-echoes.jpeg",
   "spotifyUrl": "https://open.spotify.com/playlist/1jKARjYGon1ioxNjFMugTC?si=d6114212886547d4",
   "tracks": [
-    { "title": "hall", "artist": "baths" },
-    { "title": "before i move off", "artist": "mount kimbie" },
-    { "title": "a clone is a clone", "artist": "acid pauli" },
-    { "title": "(w)here", "artist": "holy other" },
-    { "title": "don’t follow", "artist": "b. fleischmann" },
-    { "title": "so so lovely", "artist": "shigeto" },
-    { "title": "oh, why", "artist": "balam acab" },
-    { "title": "stick to my side", "artist": "pantha du prince" },
-    { "title": "circles", "artist": "apparat" },
-    { "title": "space is only noise if you can see", "artist": "nicolas jaar" },
-    { "title": "street halo", "artist": "burial" },
-    { "title": "austere coincidences", "artist": "my dry wet mess" }
+    {
+      "title": "hall",
+      "artist": "baths"
+    },
+    {
+      "title": "before i move off",
+      "artist": "mount kimbie"
+    },
+    {
+      "title": "a clone is a clone",
+      "artist": "acid pauli"
+    },
+    {
+      "title": "(w)here",
+      "artist": "holy other"
+    },
+    {
+      "title": "don’t follow",
+      "artist": "b. fleischmann"
+    },
+    {
+      "title": "so so lovely",
+      "artist": "shigeto"
+    },
+    {
+      "title": "oh, why",
+      "artist": "balam acab"
+    },
+    {
+      "title": "stick to my side",
+      "artist": "pantha du prince"
+    },
+    {
+      "title": "circles",
+      "artist": "apparat"
+    },
+    {
+      "title": "space is only noise if you can see",
+      "artist": "nicolas jaar"
+    },
+    {
+      "title": "street halo",
+      "artist": "burial"
+    },
+    {
+      "title": "austere coincidences",
+      "artist": "my dry wet mess"
+    }
   ]
 }

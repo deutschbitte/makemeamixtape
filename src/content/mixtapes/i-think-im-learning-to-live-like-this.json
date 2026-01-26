@@ -5,23 +5,77 @@
   "coverImage": "/covers/i-think-im-learning-to-live-like-this.jpg",
   "spotifyUrl": "https://open.spotify.com/playlist/4XF1wjf22lFD6uGBzpa97a",
   "tracks": [
-    { "title": "never enough", "artist": "turnstile" },
-    { "title": "what are you, a cop?", "artist": "carly cosgrove" },
-    { "title": "courage was confused", "artist": "knapsack" },
-    { "title": "applebee’s bar", "artist": "spraynard" },
-    { "title": "me first", "artist": "real friends" },
-    { "title": "well, whatever it was", "artist": "joyce manor" },
-    { "title": "glimmer of doubt", "artist": "nvm" },
-    { "title": "go to hell", "artist": "bayside" },
-    { "title": "get dumber (featuring jeff rosenstock)", "artist": "pup" },
-    { "title": "the weight", "artist": "arm’s length" },
-    { "title": "head is like a sinking stone", "artist": "tigers jaw" },
-    { "title": "pen name", "artist": "shoreline" },
-    { "title": "blue jay", "artist": "charmer" },
-    { "title": "bored of being sad", "artist": "microwave" },
-    { "title": "tarot cards", "artist": "saturdays at your place" },
-    { "title": "12345", "artist": "tiny moving parts" },
-    { "title": "tongue tied", "artist": "free throw" },
-    { "title": "john “the rock” cena, can you smell what the undertaker", "artist": "hot mulligan" }
+    {
+      "title": "never enough",
+      "artist": "turnstile"
+    },
+    {
+      "title": "what are you, a cop?",
+      "artist": "carly cosgrove"
+    },
+    {
+      "title": "courage was confused",
+      "artist": "knapsack"
+    },
+    {
+      "title": "applebee’s bar",
+      "artist": "spraynard"
+    },
+    {
+      "title": "me first",
+      "artist": "real friends"
+    },
+    {
+      "title": "well, whatever it was",
+      "artist": "joyce manor"
+    },
+    {
+      "title": "glimmer of doubt",
+      "artist": "nvm"
+    },
+    {
+      "title": "go to hell",
+      "artist": "bayside"
+    },
+    {
+      "title": "get dumber (featuring jeff rosenstock)",
+      "artist": "pup"
+    },
+    {
+      "title": "the weight",
+      "artist": "arm’s length"
+    },
+    {
+      "title": "head is like a sinking stone",
+      "artist": "tigers jaw"
+    },
+    {
+      "title": "pen name",
+      "artist": "shoreline"
+    },
+    {
+      "title": "blue jay",
+      "artist": "charmer"
+    },
+    {
+      "title": "bored of being sad",
+      "artist": "microwave"
+    },
+    {
+      "title": "tarot cards",
+      "artist": "saturdays at your place"
+    },
+    {
+      "title": "12345",
+      "artist": "tiny moving parts"
+    },
+    {
+      "title": "tongue tied",
+      "artist": "free throw"
+    },
+    {
+      "title": "john “the rock” cena, can you smell what the undertaker",
+      "artist": "hot mulligan"
+    }
   ]
 }

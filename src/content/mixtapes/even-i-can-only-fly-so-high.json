@@ -1,0 +1,141 @@
+{
+  "title": "even i can only fly so high.",
+  "date": "2007-07-21",
+  "format": "cassette",
+  "notes": "for johannes",
+  "artOfTheMixUrl": "https://www.artofthemix.org/mix/113637",
+  "tracks": [
+    {
+      "title": "who do you think?",
+      "artist": "interpol"
+    },
+    {
+      "title": "best looking boys",
+      "artist": "the promise ring"
+    },
+    {
+      "title": "two way monologue (ep version)",
+      "artist": "sondre lerche"
+    },
+    {
+      "title": "people as places as people",
+      "artist": "modest mouse"
+    },
+    {
+      "title": "center of the universe",
+      "artist": "built to spill"
+    },
+    {
+      "title": "the sky is open",
+      "artist": "the long winters"
+    },
+    {
+      "title": "places",
+      "artist": "georgie james"
+    },
+    {
+      "title": "you got yr. cherry bomb",
+      "artist": "spoon"
+    },
+    {
+      "title": "straight outta stockholm",
+      "artist": "mc lars"
+    },
+    {
+      "title": "we used to be friends",
+      "artist": "the dandy warhols"
+    },
+    {
+      "title": "the joker (featuring bootsy collins)",
+      "artist": "fatboy slim"
+    },
+    {
+      "title": "the red bedroom",
+      "artist": "no knife"
+    },
+    {
+      "title": "for all the tanning salons in texas",
+      "artist": "chin up chin up"
+    },
+    {
+      "title": "so far we are",
+      "artist": "the french kicks"
+    },
+    {
+      "title": "lucky denver mint",
+      "artist": "jimmy eat world"
+    },
+    {
+      "title": "the comeback",
+      "artist": "stars"
+    }
+  ],
+  "sideA": [
+    {
+      "title": "who do you think?",
+      "artist": "interpol"
+    },
+    {
+      "title": "best looking boys",
+      "artist": "the promise ring"
+    },
+    {
+      "title": "two way monologue (ep version)",
+      "artist": "sondre lerche"
+    },
+    {
+      "title": "people as places as people",
+      "artist": "modest mouse"
+    },
+    {
+      "title": "center of the universe",
+      "artist": "built to spill"
+    },
+    {
+      "title": "the sky is open",
+      "artist": "the long winters"
+    },
+    {
+      "title": "places",
+      "artist": "georgie james"
+    },
+    {
+      "title": "you got yr. cherry bomb",
+      "artist": "spoon"
+    },
+    {
+      "title": "straight outta stockholm",
+      "artist": "mc lars"
+    }
+  ],
+  "sideB": [
+    {
+      "title": "we used to be friends",
+      "artist": "the dandy warhols"
+    },
+    {
+      "title": "the joker (featuring bootsy collins)",
+      "artist": "fatboy slim"
+    },
+    {
+      "title": "the red bedroom",
+      "artist": "no knife"
+    },
+    {
+      "title": "for all the tanning salons in texas",
+      "artist": "chin up chin up"
+    },
+    {
+      "title": "so far we are",
+      "artist": "the french kicks"
+    },
+    {
+      "title": "lucky denver mint",
+      "artist": "jimmy eat world"
+    },
+    {
+      "title": "the comeback",
+      "artist": "stars"
+    }
+  ]
+}
